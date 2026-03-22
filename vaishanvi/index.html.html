@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vaishnavi Rakhi – India's Cheapest Rakhi Wholesale Hub</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Rozha+One&family=Hind:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --crimson: #C0001A;
+    --gold: #D4A017;
+    --gold-light: #F5D76E;
+    --ivory: #FFF8EE;
+    --saffron: #FF6B00;
+    --maroon: #7B0020;
+    --dark: #1A0A00;
+    --text: #2C1500;
+    --white: #FFFFFF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: 'Hind', sans-serif;
+    background: var(--ivory);
+    color: var(--text);
+    overflow-x: hidden;
+  }
+
+  /* ── ORNAMENTAL DIVIDER ── */
+  .ornament {
+    text-align: center;
+    color: var(--gold);
+    font-size: 1.6rem;
+    letter-spacing: 8px;
+    margin: 8px 0;
+  }
+
+  /* ── NAV ── */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--maroon);
+    border-bottom: 3px solid var(--gold);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    height: 64px;
+  }
+
+  .nav-logo {
+    font-family: 'Rozha One', serif;
+    color: var(--gold-light);
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+  }
+
+  .nav-links a {
+    color: #F9E4B7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--gold-light); }
+
+  .nav-wa {
+    background: #25D366;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 24px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .nav-wa:hover { transform: scale(1.05); box-shadow: 0 4px 16px #25D36655; }
+
+  /* ── HERO ── */
+  #hero {
+    min-height: 88vh;
+    background:
+      radial-gradient(ellipse at 20% 50%, rgba(212,160,23,0.18) 0%, transparent 60%),
+      radial-gradient(ellipse at 80% 30%, rgba(192,0,26,0.22) 0%, transparent 55%),
+      linear-gradient(135deg, #4A0010 0%, #7B0020 35%, #C0001A 70%, #D4A017 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .hero-pattern {
+    position: absolute;
+    inset: 0;
+    background-image:
+      radial-gradient(circle, rgba(245,215,110,0.12) 1px, transparent 1px);
+    background-size: 36px 36px;
+    pointer-events: none;
+  }
+
+  .hero-badge {
+    background: var(--gold);
+    color: var(--dark);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 6px 20px;
+    border-radius: 24px;
+    margin-bottom: 20px;
+    animation: fadeDown 0.6s ease both;
+  }
+
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(2.6rem, 6vw, 5rem);
+    font-weight: 900;
+    color: var(--white);
+    line-height: 1.1;
+    animation: fadeDown 0.7s 0.1s ease both;
+    text-shadow: 0 4px 24px rgba(0,0,0,0.4);
+  }
+
+  .hero h1 span { color: var(--gold-light); }
+
+  .hero-sub {
+    font-size: clamp(1rem, 2.2vw, 1.35rem);
+    color: #F9E4B7;
+    margin: 18px 0 32px;
+    max-width: 560px;
+    animation: fadeDown 0.7s 0.2s ease both;
+  }
+
+  .hero-ctas {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation: fadeDown 0.7s 0.3s ease both;
+  }
+
+  .btn-primary {
+    background: var(--gold);
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 14px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.5px;
+  }
+  .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(212,160,23,0.4); }
+
+  .btn-outline {
+    background: transparent;
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 14px 36px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: 2px solid rgba(255,255,255,0.6);
+    transition: all 0.2s;
+    cursor: pointer;
+  }
+  .btn-outline:hover { background: rgba(255,255,255,0.1); border-color: white; }
+
+  .hero-strip {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--gold);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--dark);
+    letter-spacing: 0.5px;
+    overflow: hidden;
+  }
+
+  /* ── TRUST STRIP ── */
+  .trust-strip {
+    background: var(--dark);
+    padding: 18px 40px;
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    flex-wrap: wrap;
+  }
+
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--gold-light);
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
+  .trust-icon { font-size: 1.3rem; }
+
+  /* ── SECTION BASE ── */
+  section { padding: 80px 20px; }
+  .section-label {
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: var(--crimson);
+    margin-bottom: 8px;
+  }
+  .section-title {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+    text-align: center;
+    font-weight: 900;
+    color: var(--maroon);
+    margin-bottom: 10px;
+  }
+  .section-sub {
+    text-align: center;
+    color: #6B4022;
+    font-size: 1rem;
+    max-width: 520px;
+    margin: 0 auto 48px;
+    line-height: 1.7;
+  }
+  .container { max-width: 1160px; margin: 0 auto; }
+
+  /* ── ABOUT ── */
+  #about { background: var(--ivory); }
+
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+  }
+
+  .about-visual {
+    background: linear-gradient(135deg, var(--maroon), var(--crimson));
+    border-radius: 12px;
+    padding: 48px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-visual::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: radial-gradient(circle, rgba(245,215,110,0.1) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+
+  .about-visual-emoji { font-size: 4rem; margin-bottom: 12px; display: block; }
+
+  .about-visual h3 {
+    font-family: 'Rozha One', serif;
+    color: var(--gold-light);
+    font-size: 2rem;
+    position: relative;
+  }
+
+  .about-visual p {
+    color: #F9D9A8;
+    font-size: 0.9rem;
+    position: relative;
+    margin-top: 8px;
+  }
+
+  .about-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-top: 24px;
+    position: relative;
+  }
+
+  .stat-box {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(245,215,110,0.3);
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+  }
+
+  .stat-num {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: var(--gold-light);
+  }
+
+  .stat-label { font-size: 0.75rem; color: #F9D9A8; margin-top: 2px; }
+
+  .about-content h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 900;
+    color: var(--maroon);
+    margin-bottom: 16px;
+  }
+
+  .about-content p {
+    color: #5A3010;
+    line-height: 1.8;
+    margin-bottom: 16px;
+    font-size: 0.98rem;
+  }
+
+  .about-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .tag {
+    background: #FFF0D6;
+    border: 1px solid var(--gold);
+    color: var(--maroon);
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 6px 14px;
+    border-radius: 20px;
+  }
+
+  /* ── PRODUCTS ── */
+  #products { background: #FFF3E0; }
+
+  .products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 24px;
+  }
+
+  .product-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(123,0,32,0.08);
+    transition: transform 0.25s, box-shadow 0.25s;
+    border: 1px solid rgba(212,160,23,0.2);
+  }
+
+  .product-card:hover { transform: translateY(-6px); box-shadow: 0 12px 32px rgba(123,0,32,0.18); }
+
+  .product-img {
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .product-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--crimson);
+    color: white;
+    font-size: 0.65rem;
+    font-weight: 700;
+    padding: 3px 8px;
+    border-radius: 12px;
+    letter-spacing: 0.5px;
+  }
+
+  .product-body { padding: 14px 16px 18px; }
+
+  .product-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--maroon);
+    margin-bottom: 4px;
+  }
+
+  .product-desc { font-size: 0.8rem; color: #7A4020; margin-bottom: 10px; line-height: 1.5; }
+
+  .product-price {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+  }
+
+  .price-from { font-size: 0.7rem; color: #888; }
+  .price-val {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--crimson);
+    font-family: 'Playfair Display', serif;
+  }
+
+  .price-bulk { font-size: 0.7rem; color: #25A244; font-weight: 600; }
+
+  /* ── WHY CHOOSE US ── */
+  #why { background: var(--maroon); }
+  #why .section-title { color: var(--gold-light); }
+  #why .section-label { color: var(--gold); }
+  #why .section-sub { color: #F0C890; }
+
+  .why-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+  }
+
+  .why-card {
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(245,215,110,0.2);
+    border-radius: 12px;
+    padding: 28px 22px;
+    text-align: center;
+    transition: background 0.25s, transform 0.25s;
+  }
+
+  .why-card:hover { background: rgba(255,255,255,0.12); transform: translateY(-4px); }
+
+  .why-icon { font-size: 2.4rem; margin-bottom: 14px; }
+
+  .why-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--gold-light);
+    margin-bottom: 8px;
+  }
+
+  .why-desc { font-size: 0.85rem; color: #F0C890; line-height: 1.6; }
+
+  /* ── GALLERY ── */
+  #gallery { background: var(--ivory); }
+
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    gap: 16px;
+  }
+
+  .gallery-item {
+    border-radius: 10px;
+    overflow: hidden;
+    background: linear-gradient(135deg, var(--maroon), var(--crimson));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    transition: transform 0.3s;
+    cursor: pointer;
+    border: 2px solid rgba(212,160,23,0.3);
+  }
+
+  .gallery-item:hover { transform: scale(1.03); }
+  .gallery-item:nth-child(1) { grid-column: span 2; height: 180px; }
+  .gallery-item:nth-child(2) { height: 180px; }
+  .gallery-item:nth-child(3) { height: 180px; }
+  .gallery-item:nth-child(4) { height: 160px; background: linear-gradient(135deg, #6A0010, #A0001A); }
+  .gallery-item:nth-child(5) { height: 160px; background: linear-gradient(135deg, #6B4000, #C0890A); }
+  .gallery-item:nth-child(6) { height: 160px; background: linear-gradient(135deg, #4A0010, #8B002A); }
+  .gallery-item:nth-child(7) { height: 160px; grid-column: span 1; background: linear-gradient(135deg, #8B4000, var(--saffron)); }
+
+  /* ── TESTIMONIALS ── */
+  #testimonials { background: #FFF8EE; }
+
+  .testi-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+
+  .testi-card {
+    background: white;
+    border-radius: 12px;
+    padding: 28px;
+    border-left: 4px solid var(--gold);
+    box-shadow: 0 2px 12px rgba(123,0,32,0.06);
+  }
+
+  .testi-stars { color: var(--gold); font-size: 1.1rem; margin-bottom: 12px; }
+
+  .testi-text {
+    font-size: 0.92rem;
+    line-height: 1.7;
+    color: #5A3010;
+    margin-bottom: 16px;
+    font-style: italic;
+  }
+
+  .testi-author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .testi-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--maroon), var(--crimson));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+
+  .testi-name { font-weight: 700; font-size: 0.88rem; color: var(--maroon); }
+  .testi-loc { font-size: 0.75rem; color: #888; }
+
+  /* ── CONTACT ── */
+  #contact { background: linear-gradient(135deg, #1A0A00, var(--maroon)); }
+  #contact .section-title { color: var(--gold-light); }
+  #contact .section-label { color: var(--gold); }
+  #contact .section-sub { color: #F0C890; }
+
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 48px;
+    align-items: start;
+  }
+
+  .contact-info h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold-light);
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+  }
+
+  .contact-detail {
+    display: flex;
+    gap: 14px;
+    margin-bottom: 20px;
+    align-items: flex-start;
+  }
+
+  .c-icon {
+    background: rgba(212,160,23,0.15);
+    border: 1px solid rgba(212,160,23,0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    flex-shrink: 0;
+  }
+
+  .c-label { font-size: 0.7rem; color: #D4A017; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 2px; }
+  .c-val { color: #F9E4B7; font-size: 0.92rem; line-height: 1.5; }
+
+  .wa-big {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #25D366;
+    color: white;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 14px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-top: 28px;
+    width: fit-content;
+    transition: all 0.2s;
+  }
+  .wa-big:hover { background: #20B958; transform: translateY(-2px); }
+
+  .contact-form {
+    background: rgba(255,255,255,0.07);
+    border: 1px solid rgba(212,160,23,0.2);
+    border-radius: 12px;
+    padding: 32px;
+  }
+
+  .contact-form h3 {
+    font-family: 'Playfair Display', serif;
+    color: var(--gold-light);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+
+  .form-group { margin-bottom: 16px; }
+
+  .form-group label {
+    display: block;
+    font-size: 0.78rem;
+    color: #D4A017;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
+
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(212,160,23,0.25);
+    border-radius: 6px;
+    color: var(--white);
+    font-size: 0.9rem;
+    font-family: 'Hind', sans-serif;
+    padding: 10px 14px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus { border-color: var(--gold); }
+
+  .form-group select option { background: var(--maroon); }
+  .form-group textarea { resize: vertical; min-height: 90px; }
+
+  .form-submit {
+    background: var(--gold);
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 13px 32px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 4px;
+    transition: all 0.2s;
+    letter-spacing: 0.5px;
+  }
+  .form-submit:hover { background: var(--gold-light); transform: translateY(-1px); }
+
+  /* ── FOOTER ── */
+  footer {
+    background: var(--dark);
+    border-top: 2px solid var(--gold);
+    padding: 28px 40px;
+    text-align: center;
+  }
+
+  .footer-logo {
+    font-family: 'Rozha One', serif;
+    color: var(--gold-light);
+    font-size: 1.6rem;
+    margin-bottom: 6px;
+  }
+
+  .footer-tagline { color: #A07040; font-size: 0.85rem; margin-bottom: 16px; }
+
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  .footer-links a {
+    color: #C09050;
+    text-decoration: none;
+    font-size: 0.82rem;
+    transition: color 0.2s;
+  }
+  .footer-links a:hover { color: var(--gold-light); }
+
+  .footer-copy { font-size: 0.75rem; color: #6B4020; }
+
+  /* ── WA FLOAT ── */
+  .wa-float {
+    position: fixed;
+    bottom: 28px;
+    right: 28px;
+    background: #25D366;
+    color: white;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    box-shadow: 0 4px 20px rgba(37,211,102,0.5);
+    text-decoration: none;
+    z-index: 999;
+    animation: pulse 2.5s infinite;
+  }
+
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.5); }
+    50% { box-shadow: 0 4px 32px rgba(37,211,102,0.9); }
+  }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeDown {
+    from { opacity: 0; transform: translateY(-18px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 768px) {
+    nav { padding: 0 16px; }
+    .nav-links { display: none; }
+    .hero-strip { gap: 20px; flex-wrap: wrap; padding: 8px 16px; }
+    .about-grid, .contact-grid { grid-template-columns: 1fr; }
+    .form-row { grid-template-columns: 1fr; }
+    .gallery-grid { grid-template-columns: 1fr 1fr; }
+    .gallery-item:nth-child(1) { grid-column: span 2; }
+    section { padding: 56px 16px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- FLOATING WA BUTTON -->
+<a href="https://wa.me/916393404470-9123767549-7068086754?text=Hi%20Vaishnavi%20Rakhi%2C%20I%20want%20to%20place%20a%20bulk%20order!" class="wa-float" target="_blank" title="WhatsApp Us">💬</a>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">🪢 Vaishnavi Rakhi</div>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#why">Why Us</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="https://wa.me/916393404470-9123767549-7068086754?text" class="nav-wa" target="_blank">💬 WhatsApp Order</a>
+</nav>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-pattern"></div>
+  <div class="hero-badge">😎Rakhi Season 2026 – Order now!</div>
+  <h1 class="hero" style="font-family:'Playfair Display',serif;font-size:clamp(2.6rem,6vw,5rem);font-weight:900;color:white;line-height:1.1;animation:fadeDown 0.7s 0.1s ease both;text-shadow:0 4px 24px rgba(0,0,0,0.4);">
+    India's Affordable<br><span style="color:#F5D76E;">Rakhi Wholesale Hub</span>
+  </h1>
+  <p class="hero-sub">Premium-quality rakhis starting at unbeatable wholesale prices. Trusted by retailers across all India. Kolkata's #1 bulk rakhi supplier.</p>
+  <div class="hero-ctas">
+    <a href="#products" class="btn-primary">🛍️ Shop Now</a>
+    <a href="#contact" class="btn-outline">📞 Contact Us</a>
+  </div>
+  <div class="hero-strip">
+    <span>🎀 Starting ₹1/Rakhi</span>
+    <span>📦 MOQ: 100 Pcs</span>
+    <span>🚚 Pan-India Delivery</span>
+    <span>⭐ 500+ Happy Retailers</span>
+  </div>
+</section>
+
+<!-- TRUST STRIP -->
+<div class="trust-strip">
+  <div class="trust-item"><span class="trust-icon">🏆</span> All India Lowest Price</div>
+  <div class="trust-item"><span class="trust-icon">🎨</span> 1000+ Designs</div>
+  <div class="trust-item"><span class="trust-icon">📦</span> Same Day Dispatch</div>
+  <div class="trust-item"><span class="trust-icon">🤝</span> Trusted by 500+ Retailers</div>
+  <div class="trust-item"><span class="trust-icon">💯</span> Quality Assured</div>
+</div>
+
+<!-- ABOUT -->
+<section id="about">
+  <div class="container">
+    <div class="section-label">Who We Are</div>
+    <div class="section-title">About Vaishnavi Rakhi</div>
+    <div class="ornament">✦ ✦ ✦</div>
+    <div style="margin-bottom:48px;"></div>
+    <div class="about-grid">
+      <div class="about-visual">
+        <span class="about-visual-emoji"></span>
+        <h3>Vaishnavi Rakhi</h3>
+        <p>Wholesale Rakhi Supplier, Kolkata</p>
+        <div class="about-stats">
+          <div class="stat-box"><div class="stat-num">15+</div><div class="stat-label">Years Experience</div></div>
+          <div class="stat-box"><div class="stat-num">1000+</div><div class="stat-label">Rakhi Designs</div></div>
+          <div class="stat-box"><div class="stat-num">500+</div><div class="stat-label">Retailers Served</div></div>
+          <div class="stat-box"><div class="stat-num">28+</div><div class="stat-label">States Delivered</div></div>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2>Your Trusted Wholesale Rakhi Partner</h2>
+        <p>Welcome to <strong>Vaishnavi Rakhi</strong> – Kolkata's premier wholesale rakhi supplier, proudly serving retailers, distributors, and gifting businesses across India for over 15 years.</p>
+        <p>Nestled in the heart of Ram Rahim Market, we offer an unmatched collection of rakhis at the <strong>lowest prices in all of India</strong>. From traditional thread rakhis to designer sets, kids rakhis to premium bhaiya-bhabhi combos – we have it all under one roof.</p>
+        <p>Our mission is simple: bring you <strong>premium quality at wholesale prices</strong> so you can delight your customers while maximizing your margin. With fast pan-India delivery and flexible bulk deals, we are the partner every retailer deserves.</p>
+        <div class="about-tags">
+          <span class="tag">🎀 Designer Rakhis</span>
+          <span class="tag">👶 Kids Rakhis</span>
+          <span class="tag">💫 Lumba Rakhis</span>
+          <span class="tag">📦 Bulk Orders</span>
+          <span class="tag">🚚 Fast Delivery</span>
+          <span class="tag">💰 Lowest Price</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="container">
+    <div class="section-label">Our Collections</div>
+    <div class="section-title">Rakhi Categories</div>
+    <div class="ornament">✦ ✦ ✦</div>
+    <p class="section-sub">Browse our wide range of wholesale rakhi collections. All prices are per piece for bulk orders.</p>
+    <div class="products-grid">
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#FFF0D6,#FFE0A0);">🌸<span class="product-badge">Bestseller</span></div>
+        <div class="product-body">
+          <div class="product-name">Designer Rakhi</div>
+          <div class="product-desc">Elegant handcrafted designs with beads, stones & threads</div>
+          <div class="product-price">
+            <span class="price-from">From</span>
+            <span class="price-val">₹5/pc</span>
+            <span class="price-bulk">• Bulk ₹4/pc</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#FFE8F0,#FFB8D0);">🎠<span class="product-badge">Kids Fav</span></div>
+        <div class="product-body">
+          <div class="product-name">Kids Rakhi</div>
+          <div class="product-desc">Cartoon, superhero & colourful fun rakhis for little ones</div>
+          <div class="product-price">
+            <span class="price-from">From</span>
+            <span class="price-val">₹2/pc</span>
+            <span class="price-bulk">• Bulk ₹1.5/pc</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#FFF0E0,#FFD580);">🎁<span class="product-badge">Combo</span></div>
+        <div class="product-body">
+          <div class="product-name">Bhaiya Bhabhi Set</div>
+          <div class="product-desc">Complete gift sets with rakhi + lumba + roli + chawal</div>
+          <div class="product-price">
+            <span class="price-from">From</span>
+            <span class="price-val">₹35/set</span>
+            <span class="price-bulk">• Bulk ₹30/set</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#F8E0FF,#E8A0FF);">💎<span class="product-badge">Premium</span></div>
+        <div class="product-body">
+          <div class="product-name">Lumba Rakhi</div>
+          <div class="product-desc">Traditional bhabhi rakhis with pearl & stone work</div>
+          <div class="product-price">
+            <span class="price-from">From</span>
+            <span class="price-val">₹8/pc</span>
+            <span class="price-bulk">• Bulk ₹5/pc</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#E0F8FF,#90D8FF);">✨<span class="product-badge">Fancy</span></div>
+        <div class="product-body">
+          <div class="product-name">Fancy Rakhi Sets</div>
+          <div class="product-desc">Box sets with premium rakhis, sweets & accessories</div>
+          <div class="product-price">
+            <span class="price-from">From</span>
+            <span class="price-val">₹60/set</span>
+            <span class="price-bulk">• Bulk ₹55/set</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-img" style="background:linear-gradient(135deg,#E8FFE8,#90E890);">🕉️<span class="product-badge">Sacred</span></div>
+        <div class="product-body">
+          <div class="product-name">Thread Rakhi</div>
+          <div class="product-desc">Simple mauli & cotton thread rakhis, traditional & pure</div>
+          <div class="product-price">
+            <span class="price-from">From</span>
+            <span class="price-val">₹1/pc</span>
+            <span class="price-bulk">• Bulk ₹0.80/pc</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px;">
+      <a href="#contact" class="btn-primary" style="font-size:1rem;">📦 Get Bulk Price List</a>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="why">
+  <div class="container">
+    <div class="section-label">Our Advantage</div>
+    <div class="section-title">Why Choose Vaishnavi Rakhi?</div>
+    <div class="ornament" style="color:#D4A017;">✦ ✦ ✦</div>
+    <p class="section-sub">We've been the go-to wholesale partner for retailers across India. Here's why thousands trust us.</p>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">💰</div>
+        <div class="why-title">All India Lowest Price</div>
+        <div class="why-desc">Starting at just ₹1/rakhi – we guarantee you won't find cheaper rates anywhere in India. Price match on bulk deals.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🎨</div>
+        <div class="why-title">1000+ Designs</div>
+        <div class="why-desc">Massive variety from simple thread rakhis to premium designer collections. Fresh catalogue every season.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📦</div>
+        <div class="why-title">Bulk Deals Available</div>
+        <div class="why-desc">Special pricing for large orders. MOQ as low as 100 pcs. Custom packaging available for branded retailers.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🚚</div>
+        <div class="why-title">Pan-India Delivery</div>
+        <div class="why-desc">Fast and reliable shipping across all 28 states. Same-day dispatch for orders placed before 2 PM.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🤝</div>
+        <div class="why-title">Trusted Since 10+ Years</div>
+        <div class="why-desc">500+ happy retailers across India. Repeat customers are our biggest testimonial. Transparent dealing always.</div>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">✅</div>
+        <div class="why-title">Quality Assurance</div>
+        <div class="why-desc">Affordable doesn't mean poor quality. Every product is checked before dispatch. No compromise on materials.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+  <div class="container">
+    <div class="section-label">Our Collections</div>
+    <div class="section-title">Rakhi Gallery</div>
+    <div class="ornament">✦ ✦ ✦</div>
+    <p class="section-sub">A glimpse of our vibrant rakhi collection. Contact us for the full catalogue.</p>
+    <div class="gallery-grid">
+      <div class="gallery-item">🎀🌸✨</div>
+      <div class="gallery-item">🪢💎</div>
+      <div class="gallery-item">🎁🌺</div>
+      <div class="gallery-item">👶🎠</div>
+      <div class="gallery-item">🕉️🌿</div>
+      <div class="gallery-item">💫🌟</div>
+      <div class="gallery-item">🎊🎉</div>
+    </div>
+    <p style="text-align:center;margin-top:20px;color:#888;font-size:0.85rem;">📲 WhatsApp us for HD product photos &amp; full catalogue</p>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section id="testimonials">
+  <div class="container">
+    <div class="section-label">Happy Retailers</div>
+    <div class="section-title">What Our Customers Say</div>
+    <div class="ornament">✦ ✦ ✦</div>
+    <p class="section-sub">Join 500+ satisfied retailers who trust Vaishnavi Rakhi for their business every Raksha Bandhan.</p>
+    <div class="testi-grid">
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Best rates in the entire market! I have been sourcing from Vaishnavi Rakhi for 5 years. Their prices are unbeatable and the quality is always consistent. My shop's profit margin has improved significantly."</p>
+        <div class="testi-author">
+          <div class="testi-avatar">👨</div>
+          <div>
+            <div class="testi-name">Ramesh Agarwal</div>
+            <div class="testi-loc">Retailer, Jaipur, Rajasthan</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Ordered 5000 rakhis for my gift shop. Delivery was on time and packaging was perfect. The variety is huge – my customers loved the designer collection. Will definitely order again!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">👩</div>
+          <div>
+            <div class="testi-name">Sunita Sharma</div>
+            <div class="testi-loc">Gift Shop Owner, Pune, Maharashtra</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"I run a small wholesale business in Delhi. Vaishnavi Rakhi gives me the lowest buying price so I can compete in the local market. Their WhatsApp catalogue service is very convenient!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">👨</div>
+          <div>
+            <div class="testi-name">Vikram Singh</div>
+            <div class="testi-loc">Wholesaler, Delhi</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="section-label">Get In Touch</div>
+    <div class="section-title">Place a Bulk Order</div>
+    <div class="ornament" style="color:#D4A017;">✦ ✦ ✦</div>
+    <p class="section-sub">Ready to stock up? Reach out for pricing, catalogue, and bulk order details.</p>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Our Details</h3>
+        <div class="contact-detail">
+          <div class="c-icon">📍</div>
+          <div>
+            <div class="c-label">Address</div>
+            <div class="c-val">Building No. 108, 6th Floor,<br>Ram Rahim Market, Kolkata, India</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon">📞</div>
+          <div>
+            <div class="c-label">Phone / WhatsApp</div>
+            <div class="c-val">+91 6393404470-9123767549-7068086754</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon">⏰</div>
+          <div>
+            <div class="c-label">Business Hours</div>
+            <div class="c-val">Mon–Sat: 9:00 AM – 8:00 PM<br>Sun: 10:00 AM – 4:00 PM</div>
+          </div>
+        </div>
+        <div class="contact-detail">
+          <div class="c-icon">📦</div>
+          <div>
+            <div class="c-label">Minimum Order</div>
+            <div class="c-val">100 pieces per design<br>Mixed designs available</div>
+          </div>
+        </div>
+        <a href="https://wa.me/916393404470-9123767549-7068086754?text=Hi%2C%20I%20want%20to%20place%20a%20bulk%20rakhi%20order.%20Please%20share%20your%20latest%20catalogue%20and%20price%20list." class="wa-big" target="_blank">
+          💬 WhatsApp for Instant Quote
+        </a>
+      </div>
+      <div class="contact-form">
+        <h3>📋 Bulk Inquiry Form</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="Full Name">
+          </div>
+          <div class="form-group">
+            <label>Phone / WhatsApp</label>
+            <input type="tel" placeholder="+91 XXXXX XXXXX">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>City / State</label>
+            <input type="text" placeholder="Your City">
+          </div>
+          <div class="form-group">
+            <label>Business Type</label>
+            <select>
+              <option value="">Select Type</option>
+              <option>Retailer</option>
+              <option>Wholesaler</option>
+              <option>Distributor</option>
+              <option>Corporate Gifting</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Rakhi Category Required</label>
+          <select>
+            <option value="">Select Category</option>
+            <option>Designer Rakhi</option>
+            <option>Kids Rakhi</option>
+            <option>Bhaiya Bhabhi Set</option>
+            <option>Lumba Rakhi</option>
+            <option>Fancy Gift Sets</option>
+            <option>Thread Rakhi</option>
+            <option>Mixed / All Types</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Approximate Quantity</label>
+          <input type="text" placeholder="e.g. 500 pcs, 10,000 pcs, etc.">
+        </div>
+        <div class="form-group">
+          <label>Message / Special Requirements</label>
+          <textarea placeholder="Any specific designs, packaging, or delivery requirements..."></textarea>
+        </div>
+        <button class="form-submit" onclick="alert('Thank you! We will contact you within 24 hours. You can also WhatsApp us for a faster response.')">
+          🚀 Submit Inquiry
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo"> Vaishnavi Rakhi</div>
+  <div class="footer-tagline">India's Affordable Rakhi Wholesale Hub – Kolkata</div>
+  <div class="footer-links">
+    <a href="#hero">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#why">Why Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Reviews</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-copy">© 2025 Vaishnavi Rakhi, Kolkata. All rights reserved. | Building No. 108, 6th Floor, Ram Rahim Market, Kolkata</div>
+</footer>
+
+</body>
+</html>
