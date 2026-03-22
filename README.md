@@ -129,9 +129,9 @@ git push origin feature/new-collection
 
 | Platform | Details |
 |---|---|
-| 📧 Email | vaishnavi.rakhi@gmail.com |
-| 📱 WhatsApp | +91-XXXXXXXXXX |
-| 📸 Instagram | [@VaishnaviRakhi](https://instagram.com) |
+| 📧 Email | vaishnavi.rakhi0@gmail.com |
+| 📱 WhatsApp | +91-6393XXXXXX |
+| 📸 Instagram | [@vaishnavi_rakhii](https://instagram.com) |
 | 📍 Location | 3/1/2, Armenian street, Old China Bazar, 108A Building,6th Floor, Ram Rahim Market, Brabourne Road,Kolkata-700001, India |
 
 ---
